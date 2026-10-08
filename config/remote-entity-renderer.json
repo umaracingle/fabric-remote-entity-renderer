@@ -1,0 +1,7 @@
+# Remote Entity Renderer config
+# Set this to your GET endpoint returning JSON in the form:
+# {"max":125,"players":[{"world":"minecraft_overworld","armor":0,"name":"notch","x":-3954,"y":89,"health":20,"z":2448,"uuid":"069a79f4-44e9-4726-a5be-fca90e38aaf5","yaw":108}]}
+{
+  "url": "https://example.com/api/players",
+  "pollIntervalSeconds": 5
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "remote_entity_renderer",
+  "version": "${version}",
+  "name": "Remote Entity Renderer",
+  "description": "Client-side renderer for world entities fetched from an HTTP API.",
+  "authors": [
+    "umaracingle"
+  ],
+  "contact": {
+    "sources": "https://github.com/umaracingle/fabric-remote-entity-renderer"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.umaracingle.remoteentity.RemoteEntityMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "26.2",
+    "java": ">=21"
+  }
+}
